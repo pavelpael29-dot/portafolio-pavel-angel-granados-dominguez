@@ -75,6 +75,14 @@
       background: #000;
     }
 
+    .descripcion {
+      max-width: 900px;
+      margin: 25px auto 0;
+      color: #ccc;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
     footer {
       text-align: center;
       padding: 30px;
@@ -86,6 +94,7 @@
 
 <body>
 
+  <!-- HEADER -->
   <header>
     <h1>Portafolio Profesional</h1>
     <p>Pavel Angel Granados Domínguez</p>
@@ -126,14 +135,25 @@
   <!-- PROYECTO DESTACADO -->
   <section>
     <h2>Proyecto Destacado</h2>
+
     <div class="video-container">
       <video autoplay loop muted playsinline controls>
         <source src="videoproyecto.mp4/proyecto.mp4" type="video/mp4">
         Tu navegador no soporta video HTML5.
       </video>
     </div>
+
+    <div class="descripcion">
+      <strong>Descripción del proyecto:</strong><br><br>
+      En este proyecto se realizó el reemplazo de fondo mediante técnica de pantalla verde (chroma key),
+      integrando objetos 3D como humo y efectos de partículas para reforzar la atmósfera visual.
+      Se trabajó la composición, iluminación y coherencia espacial para lograr una integración
+      realista entre el material original y los elementos digitales.
+    </div>
+
   </section>
 
+  <!-- FOOTER -->
   <footer>
     © 2026 · Portafolio Profesional
   </footer>
